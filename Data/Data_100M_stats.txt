@@ -1,0 +1,44 @@
+================================================================================
+2026-03-05 12:42:19 - INFO - BabyLM Corpus Cleaning Pipeline
+2026-03-05 12:42:19 - INFO - ================================================================================
+2026-03-05 12:42:19 - INFO - Input directory: data/train_100M
+2026-03-05 12:42:19 - INFO - Output directory: data/cleaned_100M
+2026-03-05 12:42:19 - INFO - Random seed: 42
+2026-03-05 12:42:19 - INFO - 
+2026-03-05 12:42:19 - INFO - PHASE 1: Per-Corpus Cleaning & Exact Deduplication
+2026-03-05 12:42:19 - INFO - --------------------------------------------------------------------------------
+2026-03-05 12:42:19 - INFO - Processing bnc_spoken.train (Phase 1)...
+2026-03-05 12:42:27 - INFO -   bnc_spoken.train: 818961 → 575141 lines (70.2% kept)
+2026-03-05 12:42:27 - INFO - Processing childes.train (Phase 1)...
+2026-03-05 12:42:59 - INFO -   childes.train: 5790000 → 2410160 lines (41.6% kept)
+2026-03-05 12:42:59 - INFO - Processing gutenberg.train (Phase 1)...
+2026-03-05 12:43:19 - INFO -   gutenberg.train: 676014 → 575166 lines (85.1% kept)
+2026-03-05 12:43:19 - INFO - Processing open_subtitles.train (Phase 1)...
+2026-03-05 12:43:45 - INFO -   open_subtitles.train: 3495000 → 2223422 lines (63.6% kept)
+2026-03-05 12:43:45 - INFO - Processing simple_wiki.train (Phase 1)...
+2026-03-05 12:43:54 - INFO -   simple_wiki.train: 646969 → 316266 lines (48.9% kept)
+2026-03-05 12:43:54 - INFO - Processing switchboard.train (Phase 1)...
+2026-03-05 12:43:55 - INFO -   switchboard.train: 161740 → 100563 lines (62.2% kept)
+2026-03-05 12:43:55 - INFO - 
+2026-03-05 12:43:55 - INFO - PHASE 2: Global Cleaning & Deduplication
+2026-03-05 12:43:55 - INFO - --------------------------------------------------------------------------------
+2026-03-05 12:43:55 - INFO - Starting Phase 2: Global cleaning...
+2026-03-05 12:43:55 - INFO - Performing stratified sampling...
+2026-03-05 12:43:56 - INFO -   bnc_spoken: 575141 lines, 7047823 tokens, target: 15000000 tokens
+2026-03-05 12:43:56 - INFO -     Taking all 575141 lines (7047823 tokens)
+2026-03-05 12:43:58 - INFO -   childes: 2410160 lines, 14763250 tokens, target: 10000000 tokens
+2026-03-05 12:44:00 - INFO -     Sampled 1633427 lines (10000000 tokens)
+2026-03-05 12:44:02 - INFO -   gutenberg: 575166 lines, 16859669 tokens, target: 40000000 tokens
+2026-03-05 12:44:02 - INFO -     Taking all 575166 lines (16859669 tokens)
+2026-03-05 12:44:04 - INFO -   open_subtitles: 2223422 lines, 16267034 tokens, target: 8000000 tokens
+2026-03-05 12:44:06 - INFO -     Sampled 1093412 lines (7999994 tokens)
+2026-03-05 12:44:07 - INFO -   simple_wiki: 316266 lines, 10014279 tokens, target: 25000000 tokens
+2026-03-05 12:44:07 - INFO -     Taking all 316266 lines (10014279 tokens)
+2026-03-05 12:44:07 - INFO -   switchboard: 100563 lines, 1098092 tokens, target: 2000000 tokens
+2026-03-05 12:44:07 - INFO -     Taking all 100563 lines (1098092 tokens)
+2026-03-05 12:44:11 - INFO - Sampled 4293975 lines with 53019857 tokens
+2026-03-05 12:44:11 - INFO - Performing global exact deduplication...
+2026-03-05 12:44:19 - INFO -   After exact dedup: 4279405 lines
+2026-03-05 12:44:19 - INFO - Applying final filters...
+2026-03-05 12:45:20 - INFO -   After filters: 4271839 lines
+2026-03-05 12:45:22 - INFO - Performing near-deduplication with MinHash LSH...
