@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pt
+*.safetensors
+*.bin
+*.model
+.DS_Store
+*.dylib
+*.so
+*.dll
+checkpoint-*/

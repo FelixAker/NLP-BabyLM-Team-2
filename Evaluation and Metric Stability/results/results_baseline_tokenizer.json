@@ -1,0 +1,8 @@
+{
+  "tokenizer": "Downloads",
+  "vocab_size": 10005,
+  "compression_ratio": 0.43591451695648514,
+  "tokens_per_1000_chars": 435.91451695648516,
+  "avg_tokens_per_word": 2.283777278562259,
+  "morph_alignment_score": 0.03802915861584402
+}
