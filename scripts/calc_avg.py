@@ -2,7 +2,7 @@ import json
 
 def main():
     # Just change this path to point to your JSON file
-    file_path = "/Users/felixaker/BabyLM/morphology_10m_256n_blimp_results.json" 
+    file_path = "/Users/felixaker/NLP-BabyLM-Team-2/BLIMP Results 1M/standard_betterdata_blimp.json" 
 
     try:
         # Open and load the JSON file

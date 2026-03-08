@@ -90,3 +90,7 @@ pip install -r "Evaluation and Metric Stability/requirements.txt"
    ```bash
    python scripts/train_pairwise_contrastive.py --model_path path/to/gpt2 --pairs_file Data/minimal_pairs.jsonl
    ```
+
+### Finished Models
+
+**You can download the finished models from here:** https://drive.google.com/drive/folders/1SvtCaTcH7EIKQ2nQtmvD-HC9CogcPB9t?usp=sharing

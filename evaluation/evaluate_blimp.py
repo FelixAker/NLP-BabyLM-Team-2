@@ -119,7 +119,8 @@ def main():
             self.bos_token_id = self.sp.bos_id() if self.sp.bos_id() != -1 else 1
             self.eos_token_id = self.sp.eos_id() if self.sp.eos_id() != -1 else 2
         def encode(self, text, out_type=int):
-            return self.sp.encode(text, out_type=out_type)
+            ids = self.sp.encode(text, out_type=out_type)
+            return [self.bos_token_id] + ids + [self.eos_token_id]
         def decode(self, ids):
             return self.sp.decode(ids)
 
