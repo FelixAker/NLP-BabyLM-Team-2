@@ -1,0 +1,412 @@
+{
+  "subsets": {
+    "adjunct_island": {
+      "raw_log_prob": 0.727,
+      "normalized_log_prob": 0.727,
+      "bpc": 0.727,
+      "bpb": 0.727
+    },
+    "anaphor_gender_agreement": {
+      "raw_log_prob": 0.587,
+      "normalized_log_prob": 0.587,
+      "bpc": 0.701,
+      "bpb": 0.701
+    },
+    "anaphor_number_agreement": {
+      "raw_log_prob": 0.647,
+      "normalized_log_prob": 0.647,
+      "bpc": 0.481,
+      "bpb": 0.481
+    },
+    "animate_subject_passive": {
+      "raw_log_prob": 0.61,
+      "normalized_log_prob": 0.613,
+      "bpc": 0.59,
+      "bpb": 0.59
+    },
+    "animate_subject_trans": {
+      "raw_log_prob": 0.614,
+      "normalized_log_prob": 0.335,
+      "bpc": 0.307,
+      "bpb": 0.307
+    },
+    "causative": {
+      "raw_log_prob": 0.466,
+      "normalized_log_prob": 0.486,
+      "bpc": 0.346,
+      "bpb": 0.346
+    },
+    "complex_NP_island": {
+      "raw_log_prob": 0.378,
+      "normalized_log_prob": 0.378,
+      "bpc": 0.378,
+      "bpb": 0.378
+    },
+    "coordinate_structure_constraint_complex_left_branch": {
+      "raw_log_prob": 0.332,
+      "normalized_log_prob": 0.332,
+      "bpc": 0.332,
+      "bpb": 0.332
+    },
+    "coordinate_structure_constraint_object_extraction": {
+      "raw_log_prob": 0.476,
+      "normalized_log_prob": 0.476,
+      "bpc": 0.521,
+      "bpb": 0.521
+    },
+    "determiner_noun_agreement_1": {
+      "raw_log_prob": 0.628,
+      "normalized_log_prob": 0.626,
+      "bpc": 0.638,
+      "bpb": 0.638
+    },
+    "determiner_noun_agreement_2": {
+      "raw_log_prob": 0.625,
+      "normalized_log_prob": 0.625,
+      "bpc": 0.681,
+      "bpb": 0.681
+    },
+    "determiner_noun_agreement_irregular_1": {
+      "raw_log_prob": 0.566,
+      "normalized_log_prob": 0.56,
+      "bpc": 0.544,
+      "bpb": 0.544
+    },
+    "determiner_noun_agreement_irregular_2": {
+      "raw_log_prob": 0.703,
+      "normalized_log_prob": 0.703,
+      "bpc": 0.746,
+      "bpb": 0.746
+    },
+    "determiner_noun_agreement_with_adj_2": {
+      "raw_log_prob": 0.547,
+      "normalized_log_prob": 0.547,
+      "bpc": 0.594,
+      "bpb": 0.594
+    },
+    "determiner_noun_agreement_with_adj_irregular_1": {
+      "raw_log_prob": 0.564,
+      "normalized_log_prob": 0.564,
+      "bpc": 0.55,
+      "bpb": 0.55
+    },
+    "determiner_noun_agreement_with_adj_irregular_2": {
+      "raw_log_prob": 0.593,
+      "normalized_log_prob": 0.593,
+      "bpc": 0.579,
+      "bpb": 0.579
+    },
+    "determiner_noun_agreement_with_adjective_1": {
+      "raw_log_prob": 0.551,
+      "normalized_log_prob": 0.56,
+      "bpc": 0.583,
+      "bpb": 0.583
+    },
+    "distractor_agreement_relational_noun": {
+      "raw_log_prob": 0.436,
+      "normalized_log_prob": 0.432,
+      "bpc": 0.44,
+      "bpb": 0.44
+    },
+    "distractor_agreement_relative_clause": {
+      "raw_log_prob": 0.402,
+      "normalized_log_prob": 0.399,
+      "bpc": 0.444,
+      "bpb": 0.444
+    },
+    "drop_argument": {
+      "raw_log_prob": 0.677,
+      "normalized_log_prob": 0.549,
+      "bpc": 0.498,
+      "bpb": 0.498
+    },
+    "ellipsis_n_bar_1": {
+      "raw_log_prob": 0.309,
+      "normalized_log_prob": 0.309,
+      "bpc": 0.309,
+      "bpb": 0.309
+    },
+    "ellipsis_n_bar_2": {
+      "raw_log_prob": 0.412,
+      "normalized_log_prob": 0.54,
+      "bpc": 0.556,
+      "bpb": 0.556
+    },
+    "existential_there_object_raising": {
+      "raw_log_prob": 0.637,
+      "normalized_log_prob": 0.627,
+      "bpc": 0.645,
+      "bpb": 0.645
+    },
+    "existential_there_quantifiers_1": {
+      "raw_log_prob": 0.896,
+      "normalized_log_prob": 0.896,
+      "bpc": 0.769,
+      "bpb": 0.769
+    },
+    "existential_there_quantifiers_2": {
+      "raw_log_prob": 0.101,
+      "normalized_log_prob": 0.101,
+      "bpc": 0.101,
+      "bpb": 0.101
+    },
+    "existential_there_subject_raising": {
+      "raw_log_prob": 0.57,
+      "normalized_log_prob": 0.587,
+      "bpc": 0.561,
+      "bpb": 0.561
+    },
+    "expletive_it_object_raising": {
+      "raw_log_prob": 0.619,
+      "normalized_log_prob": 0.587,
+      "bpc": 0.643,
+      "bpb": 0.643
+    },
+    "inchoative": {
+      "raw_log_prob": 0.407,
+      "normalized_log_prob": 0.404,
+      "bpc": 0.375,
+      "bpb": 0.375
+    },
+    "intransitive": {
+      "raw_log_prob": 0.6,
+      "normalized_log_prob": 0.525,
+      "bpc": 0.426,
+      "bpb": 0.426
+    },
+    "irregular_past_participle_adjectives": {
+      "raw_log_prob": 0.878,
+      "normalized_log_prob": 0.878,
+      "bpc": 0.949,
+      "bpb": 0.949
+    },
+    "irregular_past_participle_verbs": {
+      "raw_log_prob": 0.774,
+      "normalized_log_prob": 0.771,
+      "bpc": 0.485,
+      "bpb": 0.485
+    },
+    "irregular_plural_subject_verb_agreement_1": {
+      "raw_log_prob": 0.574,
+      "normalized_log_prob": 0.587,
+      "bpc": 0.59,
+      "bpb": 0.59
+    },
+    "irregular_plural_subject_verb_agreement_2": {
+      "raw_log_prob": 0.721,
+      "normalized_log_prob": 0.727,
+      "bpc": 0.665,
+      "bpb": 0.665
+    },
+    "left_branch_island_echo_question": {
+      "raw_log_prob": 0.378,
+      "normalized_log_prob": 0.38,
+      "bpc": 0.378,
+      "bpb": 0.378
+    },
+    "left_branch_island_simple_question": {
+      "raw_log_prob": 0.446,
+      "normalized_log_prob": 0.446,
+      "bpc": 0.446,
+      "bpb": 0.446
+    },
+    "matrix_question_npi_licensor_present": {
+      "raw_log_prob": 0.224,
+      "normalized_log_prob": 0.216,
+      "bpc": 0.224,
+      "bpb": 0.224
+    },
+    "npi_present_1": {
+      "raw_log_prob": 0.237,
+      "normalized_log_prob": 0.237,
+      "bpc": 0.763,
+      "bpb": 0.763
+    },
+    "npi_present_2": {
+      "raw_log_prob": 0.235,
+      "normalized_log_prob": 0.235,
+      "bpc": 0.813,
+      "bpb": 0.813
+    },
+    "only_npi_licensor_present": {
+      "raw_log_prob": 0.334,
+      "normalized_log_prob": 0.334,
+      "bpc": 0.334,
+      "bpb": 0.334
+    },
+    "only_npi_scope": {
+      "raw_log_prob": 0.687,
+      "normalized_log_prob": 0.685,
+      "bpc": 0.687,
+      "bpb": 0.687
+    },
+    "passive_1": {
+      "raw_log_prob": 0.718,
+      "normalized_log_prob": 0.662,
+      "bpc": 0.66,
+      "bpb": 0.66
+    },
+    "passive_2": {
+      "raw_log_prob": 0.688,
+      "normalized_log_prob": 0.627,
+      "bpc": 0.647,
+      "bpb": 0.647
+    },
+    "principle_A_c_command": {
+      "raw_log_prob": 0.639,
+      "normalized_log_prob": 0.639,
+      "bpc": 0.66,
+      "bpb": 0.66
+    },
+    "principle_A_case_1": {
+      "raw_log_prob": 1.0,
+      "normalized_log_prob": 1.0,
+      "bpc": 0.501,
+      "bpb": 0.501
+    },
+    "principle_A_case_2": {
+      "raw_log_prob": 0.498,
+      "normalized_log_prob": 0.538,
+      "bpc": 0.68,
+      "bpb": 0.68
+    },
+    "principle_A_domain_1": {
+      "raw_log_prob": 0.814,
+      "normalized_log_prob": 0.814,
+      "bpc": 0.018,
+      "bpb": 0.018
+    },
+    "principle_A_domain_2": {
+      "raw_log_prob": 0.467,
+      "normalized_log_prob": 0.467,
+      "bpc": 0.42,
+      "bpb": 0.42
+    },
+    "principle_A_domain_3": {
+      "raw_log_prob": 0.504,
+      "normalized_log_prob": 0.504,
+      "bpc": 0.504,
+      "bpb": 0.504
+    },
+    "principle_A_reconstruction": {
+      "raw_log_prob": 0.391,
+      "normalized_log_prob": 0.391,
+      "bpc": 0.391,
+      "bpb": 0.391
+    },
+    "regular_plural_subject_verb_agreement_1": {
+      "raw_log_prob": 0.607,
+      "normalized_log_prob": 0.621,
+      "bpc": 0.475,
+      "bpb": 0.475
+    },
+    "regular_plural_subject_verb_agreement_2": {
+      "raw_log_prob": 0.57,
+      "normalized_log_prob": 0.573,
+      "bpc": 0.595,
+      "bpb": 0.595
+    },
+    "sentential_negation_npi_licensor_present": {
+      "raw_log_prob": 1.0,
+      "normalized_log_prob": 1.0,
+      "bpc": 0.168,
+      "bpb": 0.168
+    },
+    "sentential_negation_npi_scope": {
+      "raw_log_prob": 0.565,
+      "normalized_log_prob": 0.565,
+      "bpc": 0.565,
+      "bpb": 0.565
+    },
+    "sentential_subject_island": {
+      "raw_log_prob": 0.418,
+      "normalized_log_prob": 0.418,
+      "bpc": 0.418,
+      "bpb": 0.418
+    },
+    "superlative_quantifiers_1": {
+      "raw_log_prob": 0.559,
+      "normalized_log_prob": 0.559,
+      "bpc": 0.89,
+      "bpb": 0.89
+    },
+    "superlative_quantifiers_2": {
+      "raw_log_prob": 0.631,
+      "normalized_log_prob": 0.631,
+      "bpc": 0.883,
+      "bpb": 0.883
+    },
+    "tough_vs_raising_1": {
+      "raw_log_prob": 0.31,
+      "normalized_log_prob": 0.328,
+      "bpc": 0.517,
+      "bpb": 0.517
+    },
+    "tough_vs_raising_2": {
+      "raw_log_prob": 0.755,
+      "normalized_log_prob": 0.719,
+      "bpc": 0.513,
+      "bpb": 0.513
+    },
+    "transitive": {
+      "raw_log_prob": 0.6,
+      "normalized_log_prob": 0.623,
+      "bpc": 0.646,
+      "bpb": 0.646
+    },
+    "wh_island": {
+      "raw_log_prob": 0.63,
+      "normalized_log_prob": 0.63,
+      "bpc": 0.546,
+      "bpb": 0.546
+    },
+    "wh_questions_object_gap": {
+      "raw_log_prob": 0.523,
+      "normalized_log_prob": 0.523,
+      "bpc": 0.579,
+      "bpb": 0.579
+    },
+    "wh_questions_subject_gap": {
+      "raw_log_prob": 0.803,
+      "normalized_log_prob": 0.803,
+      "bpc": 0.855,
+      "bpb": 0.855
+    },
+    "wh_questions_subject_gap_long_distance": {
+      "raw_log_prob": 0.905,
+      "normalized_log_prob": 0.905,
+      "bpc": 0.925,
+      "bpb": 0.925
+    },
+    "wh_vs_that_no_gap": {
+      "raw_log_prob": 0.901,
+      "normalized_log_prob": 0.901,
+      "bpc": 0.91,
+      "bpb": 0.91
+    },
+    "wh_vs_that_no_gap_long_distance": {
+      "raw_log_prob": 0.94,
+      "normalized_log_prob": 0.94,
+      "bpc": 0.945,
+      "bpb": 0.945
+    },
+    "wh_vs_that_with_gap": {
+      "raw_log_prob": 0.198,
+      "normalized_log_prob": 0.198,
+      "bpc": 0.183,
+      "bpb": 0.183
+    },
+    "wh_vs_that_with_gap_long_distance": {
+      "raw_log_prob": 0.141,
+      "normalized_log_prob": 0.141,
+      "bpc": 0.131,
+      "bpb": 0.131
+    }
+  },
+  "averages": {
+    "raw_log_prob": 0.5663134328358209,
+    "normalized_log_prob": 0.5601641791044776,
+    "bpc": 0.5466268656716419,
+    "bpb": 0.5466268656716419
+  }
+}

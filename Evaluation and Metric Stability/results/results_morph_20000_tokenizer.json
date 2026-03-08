@@ -1,0 +1,8 @@
+{
+  "tokenizer": "tokenizers_morph",
+  "vocab_size": 20000,
+  "compression_ratio": 0.37927549215537637,
+  "tokens_per_1000_chars": 379.27549215537636,
+  "avg_tokens_per_word": 1.9870426829268293,
+  "morph_alignment_score": 0.04443502311590253
+}
